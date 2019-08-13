@@ -15,7 +15,7 @@ export default {
     //点击跳转到search页面
     search(){
       this.$router.push("/search?name="+this.$refs.text.value)
-      console.log(this.$refs.text.value)
+      // console.log(this.$refs.text.value)
     }
   },
 };
