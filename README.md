@@ -25,12 +25,14 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 + npm i axios -S
 
 ####把项目托管到GitHub上
-+ git init
-+ git status  先看看文件的状态
-+ git add .   添加到git中
-+ git status  再看看文件的状态   
-+ git commit -m 'init my project' 提交文件
-目前为止只是把项目存到本地的git上。
-+ 在GitHub上创建一个空仓库
-+ 在终端输入 git remote add origin https://github.com/yanghao1224/video.git 和 git push -u origin master
-+ 没有报错就好了
+```
+git init
+git status  //先看看文件的状态
+git add .   //添加到git中
+git status  //再看看文件的状态   
+git commit -m 'init my project'// 提交文件
+  目前为止只是把项目存到本地的git上。
+在GitHub上创建一个空仓库
+在终端输入 git remote add origin https://github.com/yanghao1224/video.git 和 git push -u origin master
+ 没有报错就好了
+```
