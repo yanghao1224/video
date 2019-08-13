@@ -21,5 +21,13 @@ npm run build --report
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 
-下载axios
-npm i axios -S
+###下载axios
++ npm i axios -S
+
+####把项目托管到GitHub上
++ git init
++ git status  先看看文件的状态
++ git add .   添加到git中
++ git status  再看看文件的状态   
++ git commit -m 'init my project' 提交文件
+目前为止只是把项目存到本地的git上。
